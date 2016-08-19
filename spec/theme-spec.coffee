@@ -1,7 +1,7 @@
 describe "One Dark UI theme", ->
   beforeEach ->
     waitsForPromise ->
-      atom.packages.activatePackage('slut-ui')
+      atom.packages.activatePackage('selly-ui')
 
   it "allows the font size to be set via config", ->
     expect(document.documentElement.style.fontSize).toBe ''
