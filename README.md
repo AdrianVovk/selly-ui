@@ -1,4 +1,4 @@
-## Slut UI theme
+## Selly UI theme
 
 A flat version of the original atom-dark-ui, but nicer.
 
@@ -7,7 +7,7 @@ A flat version of the original atom-dark-ui, but nicer.
 
 ### Install
 
-Go to the package manager and search "slut-ui"
+Go to the package manager and search "selly-ui"
 
 ### FAQ
 
