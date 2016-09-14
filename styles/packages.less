@@ -1,5 +1,15 @@
 // Overrides packages
 
+// tool-bar support
+.tool-bar {
+  @tool-color: darken(@base-background-color, 2%);
+    background-color: @tool-color;
+    border-color: @tool-color;
+    button.tool-bar-btn {
+      background-color: @tool-color;
+    }
+}
+
 // find-and-replace + project-find ---------------------------
 
 .find-and-replace,
