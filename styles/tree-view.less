@@ -9,11 +9,11 @@
       padding-top: 0px;
     }
     &:before {
-      height: @ui-tab-height;
+      height: 60px;
       background-clip: padding-box;
     }
     & > .header .name {
-      line-height: @ui-tab-height;
+      line-height: 60px;
     }
   }
 
@@ -57,25 +57,4 @@
     height: inherit;
     vertical-align: top;
   }
-}
-
-// Active tree-view marker --------------
-
-.tree-view::before {
-  content: "";
-  position: fixed;
-  pointer-events: none;
-  z-index: 1;
-  margin-top: 0em;
-  margin-left: -@component-icon-padding;
-  height: @ui-tab-height;
-  width: 2px;
-  background: @base-accent-color;
-  opacity: 0;
-  transition: opacity .16s;
-}
-
-.tree-view:focus::before {
-  opacity: 1;
-  transition-duration: .32s;
 }
