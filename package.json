@@ -1,8 +1,8 @@
 {
-  "name": "selly-ui",
+  "name": "selly-ui-ide",
   "theme": "ui",
   "version": "2.0.2",
-  "description": "A flat dark theme",
+  "description": "A flat dark theme.",
   "keywords": [
     "dark",
     "adaptive",
