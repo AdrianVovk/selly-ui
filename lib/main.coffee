@@ -26,14 +26,14 @@ module.exports =
 
   activate: (state) ->
     # Handle settings changes
-    atom.config.onDidChange 'slut-ui.fontSize', ->
-      setFontSize(atom.config.get('slut-ui.fontSize'))
-    atom.config.onDidChange 'slut-ui.layoutMode', ->
-      setLayoutMode(atom.config.get('slut-ui.layoutMode'))
+    atom.config.onDidChange 'selly-ui-ide.fontSize', ->
+      setFontSize(atom.config.get('selly-ui-ide.fontSize'))
+    atom.config.onDidChange 'selly-ui-ide.layoutMode', ->
+      setLayoutMode(atom.config.get('selly-ui-ide.layoutMode'))
 
     # Initialize
-    setFontSize(atom.config.get('slut-ui.fontSize'))
-    setLayoutMode(atom.config.get('slut-ui.layoutMode'))
+    setFontSize(atom.config.get('selly-ui-ide.fontSize'))
+    setLayoutMode(atom.config.get('selly-ui-ide.layoutMode'))
 
   deactivate: ->
     unsetFontSize()
